@@ -16,6 +16,9 @@
 		039D942E1746F08B00009129 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 039D942D1746F08B00009129 /* Default.png */; };
 		039D94301746F08B00009129 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 039D942F1746F08B00009129 /* Default@2x.png */; };
 		039D94321746F08B00009129 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 039D94311746F08B00009129 /* Default-568h@2x.png */; };
+		039D943B17472AF800009129 /* MAListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D943917472AF800009129 /* MAListViewController.m */; };
+		039D943F174926FA00009129 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D943E174926FA00009129 /* UIColor+MLPFlatColors.m */; };
+		039D944117496B3400009129 /* MAListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039D944017496B3400009129 /* MAListView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		039D942D1746F08B00009129 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		039D942F1746F08B00009129 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		039D94311746F08B00009129 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		039D943817472AF800009129 /* MAListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAListViewController.h; sourceTree = "<group>"; };
+		039D943917472AF800009129 /* MAListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAListViewController.m; sourceTree = "<group>"; };
+		039D943D174926FA00009129 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		039D943E174926FA00009129 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		039D944017496B3400009129 /* MAListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,11 @@
 		039D94211746F08B00009129 /* AllTheSingleLadies */ = {
 			isa = PBXGroup;
 			children = (
+				039D943D174926FA00009129 /* UIColor+MLPFlatColors.h */,
+				039D943E174926FA00009129 /* UIColor+MLPFlatColors.m */,
+				039D943817472AF800009129 /* MAListViewController.h */,
+				039D943917472AF800009129 /* MAListViewController.m */,
+				039D944017496B3400009129 /* MAListView.xib */,
 				039D942A1746F08B00009129 /* MAAppDelegate.h */,
 				039D942B1746F08B00009129 /* MAAppDelegate.m */,
 				039D94221746F08B00009129 /* Supporting Files */,
@@ -155,6 +168,7 @@
 				039D942E1746F08B00009129 /* Default.png in Resources */,
 				039D94301746F08B00009129 /* Default@2x.png in Resources */,
 				039D94321746F08B00009129 /* Default-568h@2x.png in Resources */,
+				039D944117496B3400009129 /* MAListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				039D94281746F08B00009129 /* main.m in Sources */,
 				039D942C1746F08B00009129 /* MAAppDelegate.m in Sources */,
+				039D943B17472AF800009129 /* MAListViewController.m in Sources */,
+				039D943F174926FA00009129 /* UIColor+MLPFlatColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

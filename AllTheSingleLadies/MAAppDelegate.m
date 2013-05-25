@@ -7,13 +7,23 @@
 //
 
 #import "MAAppDelegate.h"
+#import "MAListViewController.h"
+
+@interface MAAppDelegate ()
+
+@property (nonatomic,strong) MAListViewController *listView;
+
+@end
 
 @implementation MAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    self.listView = [[MAListViewController alloc] initWithNibName:@"MAListView" bundle:nil];
+    [self.window setRootViewController:self.listView];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
